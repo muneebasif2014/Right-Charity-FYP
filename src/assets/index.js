@@ -27,9 +27,10 @@ import search from "../assets/search.svg";
 import menu from "../assets/menu.svg";
 import money from "../assets/money.svg";
 import loader from "../assets/loader.svg";
-
+import DP from "../assets/dp.png";
 export {
   lo,
+  DP,
   logo,
   dash_logo,
   dashboard,

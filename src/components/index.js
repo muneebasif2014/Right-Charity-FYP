@@ -10,7 +10,9 @@ import Contactfrom from "./Contactfrom";
 import Footer from "./Footer";
 import Loginsign from "./register&login/Login_sign";
 import Projects from "./projects/Projects";
-import Dashboard from "../dashboard/Sidebar";
+import Sidebar from "../dashboard/Sidebar";
+import Navbar_dash from "../dashboard/Navbar_dash";
+import Dashboard from "../dashboard/Dashboard";
 export {
   Navbar,
   Herosection,
@@ -25,4 +27,6 @@ export {
   Loginsign,
   Projects,
   Dashboard,
+  Navbar_dash,
+  Sidebar,
 };

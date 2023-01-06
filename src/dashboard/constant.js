@@ -7,11 +7,11 @@ import {
   withdraw,
 } from "../assets/index";
 
-export const navlinks = [
+export const navlink = [
   {
     name: "dashboard",
     imgUrl: dashboard,
-    link: "/",
+    link: "/dashboard",
   },
   {
     name: "campaign",
