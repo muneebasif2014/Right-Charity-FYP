@@ -38,14 +38,14 @@ export const navlinks = [
 
 export const categorylinks = [
   {
-    title: "Technology",
+    title: "Food",
     imgsrc: Category_1,
-    explanation: "Discover and explore the technology projects",
+    explanation: "Discover and explore the Food projects",
   },
   {
-    title: "Fashion",
+    title: "Shelter",
     imgsrc: Category_2,
-    explanation: "Discover and explore the fashion projects",
+    explanation: "Discover and explore the Shelter projects",
   },
   {
     title: "Medical",
@@ -64,7 +64,7 @@ export const chooseup = [
     start: "Why choose us",
     tagline: "🥯 Highest Success Rate ",
     paragraph:
-      "We enables fundraisers to collect money from a large number of people via online platforms. Fund Me is most often used by startup companies or growing businesses as a way of accessing alternative funds. We provides an innovative way of sourcing funding for new projects, businesses or ideas",
+      "We enables fundraisers to collect money from a large number of people via online platforms. Right Charity is most often used by  companies or  businesses as a way of Charity. We provides an innovative way of sourcing funding for Needy People",
   },
 ];
 
@@ -81,7 +81,7 @@ export const milstonedata = [
   },
   {
     count: 115,
-    paragraph: "Repeat Customer",
+    paragraph: "Monthly Fund to Famalies",
     text: "We committed to better protect your Money around the world",
   },
 ];
@@ -117,44 +117,44 @@ export const Accordionque = [
 export const Projectscategory = [
   {
     id: 1,
-    title: "Marketing",
+    title: "Education",
     funding: "90$",
-    category: "Fashion",
+    category: "Donate",
     img: Portfolio2,
   },
   {
     id: 2,
-    title: "Marketing",
+    title: "Flood Victims",
     funding: "90$",
-    category: "Fashion",
+    category: "Donate",
     img: Portfolio2,
   },
   {
     id: 3,
-    title: "Marketing",
+    title: "Homeless",
     funding: "90$",
-    category: "Fashion",
+    category: "Donate",
     img: Portfolio2,
   },
   {
     id: 4,
-    title: "Marketing",
+    title: "Food",
     funding: "90$",
-    category: "Fashion",
+    category: "Donate",
     img: Portfolio2,
   },
   {
     id: 5,
-    title: "Corurses",
+    title: "Monhtly support",
     funding: "100$",
-    category: "Education",
+    category: "Donate",
     img: Portfolio3,
   },
   {
     id: 6,
-    title: "Heart",
+    title: "Health",
     funding: "500$",
-    category: "Medical",
+    category: "Donate",
     img: Portfolio4,
   },
 ];

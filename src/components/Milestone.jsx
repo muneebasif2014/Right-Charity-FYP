@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import "../cssfiles/responsivefront.css";
 import { milstonedata } from "../constants";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 
 const Milestone = () => {
   return (
@@ -11,17 +11,21 @@ const Milestone = () => {
         <div className="container">
           <div className="why-choose-col">
             <h5 className="common-h5">WHY CHOOSE US</h5>
-            <h2 className="common-h2">Highest Success Rates 💰</h2>
+            <h2 className="common-h2">Highest Security Rates 💰</h2>
             <p>
-              FundMe can offer entrepreneurs a way to start raising money needed
-              to start a business, speed up the product development process, or
-              fund business growth with access to a network of potential
-              investors and customers We enables fundraisers to collect money
-              from a large number of people via online platforms. FundMe
-              platform is most often used by startup companies or growing
-              businesses as a way of accessing alternative funds. We provides an
-              innovative way of sourcing funding for new projects, businesses or
-              ideas.
+              Right Charity is a charitable organization based in Pakistan that
+              provides a wide range of services, including emergency medical
+              services, orphanages, and shelters for the homeless. There are
+              several reasons why one might choose to donate to the Right
+              Charity such as Transparency: Right Charity can provide a
+              transparent and auditable record of all transactions, which can
+              help donors track where their money is going and ensure that it is
+              being used as intended Efficiency: We can reduce administrative
+              costs and other expenses associated with traditional financial
+              transactions, which can help them allocate more resources towards
+              their programs and services Security : inherently secure, which
+              can help protect the sensitive personal and financial information
+              of both donors and recipients
             </p>
             <button className="common-btn" type="button">
               Contact Us
