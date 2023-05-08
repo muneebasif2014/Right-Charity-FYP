@@ -8,7 +8,40 @@ import jQuery from "jquery";
 import $ from "jquery";
 import ScrollToTop from "react-scroll-to-top";
 import Web3 from "web3";
-import { ethers } from "ethers";
+
+const { ethers } = require('ethers');
+
+// Create a web3 instance
+const web3 = new Web3(Web3.givenProvider || 'http://localhost:8545');
+
+
+const contractAbi = require('./CharityCrowdfunding.json');
+const contractAddress = '0x988dcfea132d51cb68b1a73a4772d6ddad768552'; // replace with your contract address
+const contract = new web3.eth.Contract(contractAbi, contractAddress);
+
+// Call the addProject function
+async function addProject(name, goalAmount) {
+  const accounts = await web3.eth.getAccounts();
+  await contract.methods.addProject(name, goalAmount).send({ from: accounts[0] });
+}
+
+// Call the fundProject function
+async function fundProject(projectId, amount) {
+  const accounts = await web3.eth.getAccounts();
+  await contract.methods.fundProject(projectId, amount).send({ from: accounts[0], value: amount });
+}
+
+// Call the withdrawFunds function
+async function withdrawFunds() {
+  const accounts = await web3.eth.getAccounts();
+  await contract.methods.withdrawFunds().send({ from: accounts[0] });
+}
+
+// Call the getProjects function
+async function getProjects() {
+  const result = await contract.methods.getProjects().call();
+  console.log(result); // Display the list of projects
+}
 
 const Navbar = () => {
   const [active, Setactive] = useState("Home");
